@@ -50,7 +50,7 @@ Version Control
 ---
 
 Project Architecture
-
+![System Architecture](docs/architecture-v1.png)
 Healthcare Dataset
 → ETL Pipeline
 → PostgreSQL
