@@ -1,40 +1,29 @@
-\# Project Roadmap
+# Project Roadmap
 
+## Phase 1 - Planning
+- Project Setup
+- Architecture Design
 
+## Phase 2 - Data Understanding
+- Explore MIMIC-IV Structure
+- Identify Relevant Tables
 
-\## Phase 1
+## Phase 3 - Exploratory Data Analysis
+- Patient Analysis
+- Admission Analysis
+- Diagnosis Analysis
 
-\- Repository Setup
+## Phase 4 - Funnel Analytics
+- Patient Journey Funnel
+- Readmission Funnel
 
-\- Database Design
+## Phase 5 - Dashboard Development
+- Power BI Dashboards
+- KPI Tracking
 
-\- MIMIC-IV Data Understanding
+## Phase 6 - API Development
+- FastAPI Backend
 
-
-
-\## Phase 2
-
-\- Exploratory Data Analysis
-
-\- SQL KPI Development
-
-
-
-\## Phase 3
-
-\- Healthcare Funnel Analytics
-
-\- Power BI Dashboard
-
-
-
-\## Phase 4
-
-\- FastAPI Backend
-
-
-
-\## Phase 5
-
-\- Deployment and Documentation
-
+## Phase 7 - Documentation & Deployment
+- Final Documentation
+- Portfolio Preparation
