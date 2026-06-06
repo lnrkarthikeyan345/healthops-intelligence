@@ -1,34 +1,62 @@
 # System Architecture
 
-Data Source (MIMIC-IV)
-        ↓
-Data Understanding
-        ↓
+CMS Provider Data APIs
+↓
+Data Acquisition
+↓
+Python ETL Pipeline
+↓
+PostgreSQL Database
+↓
+Data Modeling
+↓
 Exploratory Data Analysis
-        ↓
-Healthcare Funnel Analytics
-        ↓
+↓
 KPI Development
-        ↓
-Power BI Dashboard
-        ↓
+↓
+Power BI Dashboards
+↓
 FastAPI Backend
-        ↓
+↓
 Portfolio Deployment
 
-## Modules
+## Core Modules
 
-### Module 1
-Exploratory Data Analysis
+### Module 1 - Data Acquisition
 
-### Module 2
-Healthcare Funnel Analytics
+* CMS Provider Data APIs
+* Automated Data Collection
+* Data Validation
 
-### Module 3
-Hospital KPI Analytics
+### Module 2 - Data Engineering
 
-### Module 4
-Power BI Reporting
+* ETL Pipelines
+* PostgreSQL Database
+* Data Modeling
 
-### Module 5
-FastAPI Services
+### Module 3 - Exploratory Data Analysis
+
+* Hospital Performance Analysis
+* Readmission Analysis
+* Patient Experience Analysis
+* State-wise Performance Analysis
+
+### Module 4 - KPI Analytics
+
+* Hospital Rating KPIs
+* Readmission KPIs
+* Patient Satisfaction KPIs
+* Performance Benchmarks
+
+### Module 5 - Business Intelligence
+
+* Executive Dashboard
+* Readmission Dashboard
+* Patient Experience Dashboard
+* State Performance Dashboard
+
+### Module 6 - API Services
+
+* Hospital Analytics API
+* KPI Reporting API
+* Dashboard Data API
